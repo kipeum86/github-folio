@@ -15,50 +15,49 @@ const repoData = [
   {
     name: 'contract-review-agent',
     category: 'Legal AI',
-    featured: true,
     description: {
-      ko: '법률 템플릿과 상대방 초안을 조항별 분석과 변경추적 DOCX 레드라인으로 변환하는 로컬 우선 AI 계약 검토 에이전트.',
-      en: 'Local-first AI contract review agent that turns legal templates and counterparty drafts into clause-level analysis and tracked-change DOCX redlines.',
+      ko: '법무법인 진주 · 심진주 변호사 — 법률 템플릿과 상대방 초안을 조항별로 분석하고, 수정사항이 반영된 DOCX 레드라인을 자동 생성하는 AI 계약 검토 에이전트.',
+      en: 'Jinju Law · Attorney Sim Jin-ju — Local-first AI contract review agent that turns legal templates and counterparty drafts into clause-level analysis and tracked-change DOCX redlines.',
     },
   },
   {
     name: 'general-legal-research',
     category: 'Legal AI',
     description: {
-      ko: '교차 관할권 증거 기반 법률 연구 에이전트. 출처 검증, 신뢰도 점수화, 구조화된 비교 출력.',
-      en: 'Evidence-based legal research agent for cross-jurisdiction, with source verification, reliability scoring, and structured comparative outputs.',
+      ko: '법무법인 진주 · 심진주 변호사 — 여러 국가의 법률을 비교·분석하는 AI 리서치 에이전트. 출처 검증, 신뢰도 점수 산정, 비교 분석 리포트 자동 생성.',
+      en: 'Jinju Law · Attorney Sim Jin-ju — Evidence-based legal research agent for cross-jurisdiction analysis, with source verification, reliability scoring, and structured comparative outputs.',
     },
   },
   {
     name: 'game-legal-research',
     category: 'Legal AI',
     description: {
-      ko: '교차 관할권 게임 규제를 위한 증거 기반 법률 연구 에이전트.',
-      en: 'Evidence-based legal research agent for cross-jurisdiction game regulation, with source verification and reliability scoring.',
+      ko: '법무법인 진주 · 심진주 변호사 — 각국 게임 규제를 비교·분석하는 AI 리서치 에이전트. 출처 검증과 신뢰도 평가 기능 포함.',
+      en: 'Jinju Law · Attorney Sim Jin-ju — Evidence-based legal research agent for cross-jurisdiction game regulation, with source verification and reliability scoring.',
     },
   },
   {
     name: 'legal-translation-agent',
     category: 'Legal AI',
     description: {
-      ko: '5개 언어에 걸쳐 엄격한 정확성, 일관성, 구조적 충실도로 법률 문서를 번역하는 Claude Code 에이전트.',
-      en: 'A Claude Code agent that translates legal documents with strict accuracy, consistency, and structural fidelity across 5 languages.',
+      ko: '법무법인 진주 · 심진주 변호사 — 5개 국어 법률 문서 번역 에이전트. 법률 용어의 정확성과 문서 구조를 그대로 유지하며 번역.',
+      en: 'Jinju Law · Attorney Sim Jin-ju — A Claude Code agent that translates legal documents with strict accuracy, consistency, and structural fidelity across 5 languages.',
     },
   },
   {
     name: 'legal-writing-agent',
     category: 'Legal AI',
     description: {
-      ko: '한국어/영어 이중언어 법률 문서 작성 에이전트 — 관할권에 맞는 관행으로 비계약 법률 문서 초안 작성 및 수정.',
-      en: 'Bilingual (Korean/English) legal writing agent — drafts and revises non-contract legal documents with jurisdiction-appropriate conventions.',
+      ko: '법무법인 진주 · 심진주 변호사 — 한국어/영어 법률 문서 작성 에이전트. 각 관할권의 작성 관행에 맞춰 의견서, 준비서면 등을 초안·수정.',
+      en: 'Jinju Law · Attorney Sim Jin-ju — Bilingual (Korean/English) legal writing agent — drafts and revises non-contract legal documents with jurisdiction-appropriate conventions.',
     },
   },
   {
     name: 'second-review-agent',
     category: 'Legal AI',
     description: {
-      ko: 'AI 생성 법률 문서의 최종 품질 게이트. Claude Code 기반.',
-      en: 'Final quality gate for AI-generated legal documents, powered by Claude Code.',
+      ko: '법무법인 진주 · 심진주 변호사 — AI가 생성한 법률 문서의 최종 검수 에이전트. 오류와 논리적 허점을 잡아내는 마지막 품질 관문.',
+      en: 'Jinju Law · Attorney Sim Jin-ju — Final quality gate for AI-generated legal documents, powered by Claude Code.',
     },
   },
 
@@ -67,7 +66,7 @@ const repoData = [
     name: 'stock-analysis-agent',
     category: 'Investment',
     description: {
-      ko: '미국 및 한국 주식에 대한 기관급 주식 리서치 — 며칠이 아닌 몇 분 만에 제공.',
+      ko: '미국·한국 주식을 기관 수준으로 분석하는 AI 리서치 에이전트 — 며칠 걸릴 분석을 몇 분 만에.',
       en: 'Institutional-grade stock research for US and Korean equities — delivered in minutes, not days.',
     },
   },
@@ -75,34 +74,26 @@ const repoData = [
     name: 'investment-portfolio-advisor',
     category: 'Investment',
     description: {
-      ko: '당신의 개인 AI 투자 매니저. 탑다운 매크로-포트폴리오 분석 — 며칠이 아닌 몇 분 만에.',
+      ko: 'AI 기반 개인 투자 매니저. 거시경제부터 포트폴리오까지 탑다운 분석을 몇 분 안에 완성.',
       en: 'Your personal AI investment manager. Top-down macro-to-portfolio analysis — delivered in minutes, not days.',
     },
   },
 
-  // ── Claude Code & AI Tools ──
-  {
-    name: 'everything-claude-code',
-    category: 'Claude Code',
-    description: {
-      ko: '에이전트 하네스 성능 최적화 시스템. Claude Code, Codex, Opencode, Cursor를 위한 스킬, 본능, 메모리, 보안, 리서치 우선 개발.',
-      en: 'The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.',
-    },
-  },
-  {
-    name: 'awesome-claude-code-subagents',
-    category: 'Claude Code',
-    description: {
-      ko: '다양한 개발 활용 사례를 다루는 100개 이상의 전문 Claude Code 서브에이전트 컬렉션.',
-      en: 'A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases.',
-    },
-  },
+  // ── Claude Skills ──
   {
     name: 'StockAnalysisClaudeSkill',
-    category: 'Claude Code',
+    category: 'Claude Skills',
     description: {
-      ko: '공개 상장 기업에 대한 종합적이고 프리미엄급 투자 분석 HTML 대시보드를 생성하는 Claude 스킬.',
+      ko: '상장 기업의 종합 투자 분석 HTML 대시보드를 자동 생성하는 Claude 스킬.',
       en: 'Claude skill that generates comprehensive, premium investment analysis HTML dashboards for any publicly traded company.',
+    },
+  },
+  {
+    name: 'travel-planner-dashboard',
+    category: 'Claude Skills',
+    description: {
+      ko: '여행 계획을 인터랙티브 HTML 대시보드로 만들어주는 Claude 스킬.',
+      en: 'Claude skill for creating interactive HTML travel plan dashboards.',
     },
   },
 
@@ -111,7 +102,7 @@ const repoData = [
     name: 'content-dashboard-agent',
     category: 'Content & Web',
     description: {
-      ko: 'PDF, 텍스트 파일, 웹페이지, YouTube 영상을 구조화된 JSON과 세련된 단일 파일 HTML 대시보드로 변환.',
+      ko: 'PDF, 텍스트, 웹페이지, YouTube 영상을 구조화된 JSON과 깔끔한 HTML 대시보드로 변환.',
       en: 'Turn PDFs, text files, webpages, and YouTube videos into structured JSON and polished single-file HTML dashboards.',
     },
   },
@@ -119,7 +110,7 @@ const repoData = [
     name: 'web-content-designer',
     category: 'Content & Web',
     description: {
-      ko: '텍스트, 기사, URL을 프로덕션급 단일 파일 HTML 페이지로 변환하는 Claude 스킬. 3가지 레이아웃, 10가지 디자인 테마.',
+      ko: '텍스트, 기사, URL을 완성도 높은 단일 HTML 페이지로 변환하는 Claude 스킬. 3가지 레이아웃, 10가지 디자인 테마.',
       en: 'Claude skill that transforms text, articles, or URLs into production-grade single-file HTML pages. 3 layouts, 10 design themes.',
     },
   },
@@ -127,7 +118,7 @@ const repoData = [
     name: 'podcast-briefing',
     category: 'Content & Web',
     description: {
-      ko: 'AI 큐레이션 이중언어 팟캐스트 인텔리전스 — 9개 소스, 한/영 요약, 프리미엄 에디토리얼 웹 앱.',
+      ko: 'AI가 큐레이션하는 팟캐스트 브리핑 — 9개 소스에서 한/영 요약을 뽑아 프리미엄 웹앱으로 제공.',
       en: 'AI-curated bilingual podcast intelligence — 9 sources, KO/EN summaries, premium editorial web app.',
     },
   },
@@ -135,8 +126,17 @@ const repoData = [
     name: 'ebook-writer',
     category: 'Content & Web',
     description: {
-      ko: '주제를 전문적이고 인쇄 가능한 전자책으로 변환하는 멀티 에이전트 시스템.',
+      ko: '주제 하나를 입력하면 전문적인 전자책을 완성해주는 멀티 에이전트 시스템.',
       en: 'A multi-agent system that transforms a topic into a professional, print-ready ebook.',
+    },
+  },
+  {
+    name: 'prompt-library',
+    category: 'Content & Web',
+    customUrl: 'https://kipeum86.github.io/prompt-library/',
+    description: {
+      ko: 'AI 프롬프트 라이브러리 — 다양한 용도별 프롬프트 모음.',
+      en: 'AI prompt library — a curated collection of prompts for various use cases.',
     },
   },
 
@@ -145,7 +145,7 @@ const repoData = [
     name: 'obsidian-auto-tagger',
     category: 'Obsidian',
     description: {
-      ko: '모든 Obsidian 볼트를 위한 AI 기반 태깅 — 완전 설정 기반, 하드코딩 제로.',
+      ko: 'Obsidian 볼트용 AI 자동 태깅 — 설정 파일 기반으로 동작, 하드코딩 없음.',
       en: 'AI-powered tagging for any Obsidian vault — fully config-driven, zero hardcoding.',
     },
   },
@@ -153,7 +153,7 @@ const repoData = [
     name: 'obsidian-vault-doctor',
     category: 'Obsidian',
     description: {
-      ko: '범용 Obsidian 볼트 건강 프레임워크 — 단일 vault-rules.json으로 감사, 분류, 리뷰 주기 실행.',
+      ko: 'Obsidian 볼트 건강 관리 프레임워크 — vault-rules.json 하나로 감사, 분류, 리뷰 주기를 실행.',
       en: 'Universal Obsidian vault health framework — audit, classify clippings, and run review cycles with a single vault-rules.json.',
     },
   },
@@ -171,7 +171,7 @@ const repoData = [
     name: 'Project-26-Interior-Gallery',
     category: 'Fun & Creative',
     description: {
-      ko: '바닐라 HTML/CSS/JS와 GSAP으로 구축한 세련되고 몰입감 있는 풀스크린 인테리어 갤러리 슬라이더.',
+      ko: 'GSAP과 바닐라 JS로 만든 몰입감 있는 풀스크린 인테리어 갤러리 슬라이더.',
       en: 'A sleek, immersive full-screen interior gallery slider built with vanilla HTML/CSS/JS and GSAP.',
     },
   },
@@ -179,8 +179,53 @@ const repoData = [
     name: 'DashGen-AI',
     category: 'Fun & Creative',
     description: {
-      ko: '모든 YouTube 영상을 정교한 HTML 전략 대시보드로 변환.',
+      ko: 'YouTube 영상을 전략 분석 HTML 대시보드로 자동 변환.',
       en: 'Turn any YouTube video into a sophisticated HTML strategy dashboard.',
+    },
+  },
+  {
+    name: 'Dashboards-and-Archives',
+    category: 'Fun & Creative',
+    customUrl: 'https://kipeum86.github.io/Dashboards-and-Archives/',
+    description: {
+      ko: '직접 만든 분석 대시보드와 리포트 아카이브 모음.',
+      en: 'A collection of my analytical dashboards and reports.',
+    },
+  },
+  {
+    name: 'Book-Summaries',
+    category: 'Fun & Creative',
+    customUrl: 'https://kipeum86.github.io/Book-Summaries/',
+    description: {
+      ko: '읽은 책들의 요약 모음.',
+      en: 'A collection of book summaries.',
+    },
+  },
+  {
+    name: '2025-Reading-List',
+    category: 'Fun & Creative',
+    customUrl: 'https://kipeum86.github.io/2025-Reading-List/',
+    description: {
+      ko: '2025년 독서 리스트.',
+      en: 'My 2025 reading list.',
+    },
+  },
+  {
+    name: 'AI Photo Studio — Lifestyle',
+    category: 'Fun & Creative',
+    customUrl: 'https://kp-s-ai-photo-studio-lifestyle-sports-824825595989.us-west1.run.app/',
+    description: {
+      ko: 'AI 포토 스튜디오 — 라이프스타일 & 스포츠 편.',
+      en: "KP's AI Photo Studio — Lifestyle & Sports edition.",
+    },
+  },
+  {
+    name: 'AI Photo Studio — Culture',
+    category: 'Fun & Creative',
+    customUrl: 'https://kp-s-ai-photo-studio-culture-arts-824825595989.us-west1.run.app/',
+    description: {
+      ko: 'AI 포토 스튜디오 — 문화 & 예술 편.',
+      en: "KP's AI Photo Studio — Culture & Arts edition.",
     },
   },
 ]
@@ -202,7 +247,7 @@ export const categories = [
   'All',
   'Legal AI',
   'Investment',
-  'Claude Code',
+  'Claude Skills',
   'Content & Web',
   'Obsidian',
   'Fun & Creative',

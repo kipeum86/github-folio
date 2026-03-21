@@ -8,6 +8,10 @@ const GITHUB_USER = 'kipeum86'
 
 const starSvg = `<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>`
 
+function getRepoUrl(repo) {
+  return repo.customUrl || `https://github.com/${GITHUB_USER}/${repo.name}`
+}
+
 function timeAgo(dateStr) {
   if (!dateStr) return ''
   const now = new Date()
@@ -22,34 +26,6 @@ function timeAgo(dateStr) {
 
 // ── Render Functions ──
 
-function renderFeatured() {
-  const container = document.getElementById('featured-container')
-  const featured = repos.find((r) => r.featured)
-  if (!featured || !container) return
-
-  const lang = getLang()
-  container.innerHTML = `
-    <a href="https://github.com/${GITHUB_USER}/${featured.name}" target="_blank" rel="noopener" class="repo-card featured">
-      <div>
-        <div class="repo-category">${featured.category}</div>
-        <div class="repo-name">${featured.name}</div>
-        <div class="repo-desc">${featured.description[lang] || featured.description.en}</div>
-        <div class="repo-meta">
-          ${featured.language ? `<span><span class="lang-dot" style="background:${featured.languageColor}"></span>${featured.language}</span>` : ''}
-          <span class="star-icon">${starSvg} ${featured.stars}</span>
-          ${featured.updatedAt ? `<span>${timeAgo(featured.updatedAt)}</span>` : ''}
-        </div>
-      </div>
-      <div class="featured-visual">
-        <div class="featured-stars">
-          ${starSvg}
-          <span>${featured.stars}</span>
-        </div>
-      </div>
-    </a>
-  `
-}
-
 function renderGrid(category = 'All') {
   const grid = document.getElementById('repo-grid')
   if (!grid) return
@@ -57,8 +33,8 @@ function renderGrid(category = 'All') {
   const lang = getLang()
   const filtered =
     category === 'All'
-      ? repos.filter((r) => !r.featured)
-      : repos.filter((r) => r.category === category && !r.featured)
+      ? repos
+      : repos.filter((r) => r.category === category)
 
   if (!filtered.length) {
     grid.innerHTML = `<p style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:48px 0;">${
@@ -70,7 +46,7 @@ function renderGrid(category = 'All') {
   grid.innerHTML = filtered
     .map(
       (repo) => `
-    <a href="https://github.com/${GITHUB_USER}/${repo.name}" target="_blank" rel="noopener" class="repo-card">
+    <a href="${getRepoUrl(repo)}" target="_blank" rel="noopener" class="repo-card">
       <div class="repo-category">${repo.category}</div>
       <div class="repo-name">${repo.name}</div>
       <div class="repo-desc">${repo.description[lang] || repo.description.en}</div>
@@ -101,7 +77,6 @@ function computeStats() {
 
 document.addEventListener('DOMContentLoaded', () => {
   // Render content
-  renderFeatured()
   renderGrid()
   computeStats()
 
@@ -116,7 +91,6 @@ document.addEventListener('DOMContentLoaded', () => {
   // Re-render on language change
   document.getElementById('i18n-toggle')?.addEventListener('click', () => {
     requestAnimationFrame(() => {
-      renderFeatured()
       renderGrid(getCurrentCategory())
     })
   })

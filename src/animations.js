@@ -94,26 +94,6 @@ export function initAnimations() {
     )
   })
 
-  // ── Featured card reveal ──
-  const featured = document.querySelector('.repo-card.featured')
-  if (featured) {
-    gsap.fromTo(
-      featured,
-      { opacity: 0, y: 40 },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 0.8,
-        ease: 'power2.out',
-        scrollTrigger: {
-          trigger: featured,
-          start: 'top 85%',
-          once: true,
-        },
-      }
-    )
-  }
-
   // ── Repo card staggered reveal ──
   initCardAnimations()
 }

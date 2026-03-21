@@ -47,23 +47,17 @@
     "language": "Python",
     "updated_at": "2026-03-17"
   },
-  "everything-claude-code": {
-    "stars": 0,
-    "forks": 0,
-    "language": null,
-    "updated_at": "2026-03-10"
-  },
-  "awesome-claude-code-subagents": {
-    "stars": 0,
-    "forks": 0,
-    "language": null,
-    "updated_at": "2026-03-03"
-  },
   "StockAnalysisClaudeSkill": {
     "stars": 0,
     "forks": 0,
     "language": null,
     "updated_at": "2026-02-19"
+  },
+  "travel-planner-dashboard": {
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "updated_at": "2026-03-19"
   },
   "content-dashboard-agent": {
     "stars": 0,
@@ -88,6 +82,12 @@
     "forks": 0,
     "language": "Python",
     "updated_at": "2026-03-19"
+  },
+  "prompt-library": {
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "updated_at": "2026-03-21"
   },
   "obsidian-auto-tagger": {
     "stars": 0,
@@ -118,5 +118,23 @@
     "forks": 0,
     "language": "TypeScript",
     "updated_at": "2026-02-17"
+  },
+  "Dashboards-and-Archives": {
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "updated_at": "2026-01-27"
+  },
+  "Book-Summaries": {
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "updated_at": "2026-03-16"
+  },
+  "2025-Reading-List": {
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "updated_at": "2025-12-29"
   }
 }
