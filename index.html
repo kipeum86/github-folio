@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KP's Open Source Showcase — AI Agents, Legal Tech, Developer Tools</title>
+  <meta name="description" content="Curated collection of open-source AI agents, legal tech tools, investment analysis, and developer utilities by KP." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="KP's Open Source Showcase" />
+  <meta property="og:description" content="AI Agents, Legal Tech, Investment Tools, and Developer Utilities — built with taste, shipped with craft." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kipeum86.github.io/github-folio/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="KP's Open Source Showcase" />
+  <meta name="twitter:description" content="AI Agents, Legal Tech, Investment Tools, and Developer Utilities." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+
+  <!-- i18n Toggle -->
+  <button class="i18n-toggle" id="i18n-toggle" aria-label="Toggle language">
+    <span class="i18n-option active" data-lang="ko">KO</span>
+    <span class="i18n-divider">/</span>
+    <span class="i18n-option" data-lang="en">EN</span>
+  </button>
+
+  <!-- Hero Section -->
+  <header class="hero" id="hero">
+    <div class="hero-glow"></div>
+    <p class="hero-tag" data-i18n="heroTag">Curated Open Source</p>
+    <h1 class="hero-title">
+      <span data-i18n="heroTitle1">Built with </span><em data-i18n="heroTitle2">taste</em><span data-i18n="heroTitleComma">,</span>
+      <br />
+      <span data-i18n="heroTitle3">shipped with </span><em data-i18n="heroTitle4">craft</em>
+    </h1>
+    <p class="hero-sub" data-i18n="heroSub">AI agents, legal tech, dashboards, and developer tools — each repo handpicked and built to a standard.</p>
+    <div class="scroll-hint">
+      <span data-i18n="scrollHint">Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Stats Bar -->
+    <section class="stats-bar" id="stats-bar">
+      <div class="stat">
+        <div class="stat-num" data-count="0" id="stat-repos">0</div>
+        <div class="stat-label" data-i18n="statRepos">Repositories</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="0" id="stat-stars">0</div>
+        <div class="stat-label" data-i18n="statStars">Stars</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="0" id="stat-categories">0</div>
+        <div class="stat-label" data-i18n="statCategories">Categories</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" data-count="0" id="stat-languages">0</div>
+        <div class="stat-label" data-i18n="statLanguages">Languages</div>
+      </div>
+    </section>
+
+    <!-- Category Navigation -->
+    <nav class="category-nav" id="category-nav" role="toolbar" aria-label="Filter by category">
+    </nav>
+
+    <!-- Featured Section -->
+    <div class="section-label" id="section-featured">
+      <h2 data-i18n="sectionFeatured">Featured</h2>
+    </div>
+    <div class="featured-container" id="featured-container">
+    </div>
+
+    <!-- All Projects Section -->
+    <div class="section-label" id="section-all">
+      <h2 data-i18n="sectionAll">All Projects</h2>
+    </div>
+    <div class="repo-grid" id="repo-grid">
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="https://github.com/kipeum86" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="footer-note" data-i18n="footerNote">Stats powered by GitHub API · Updated daily</p>
+    <p class="footer-copy">&copy; 2026 KP. <span data-i18n="footerRights">All rights reserved.</span></p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

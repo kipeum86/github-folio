@@ -1,0 +1,122 @@
+{
+  "contract-review-agent": {
+    "stars": 20,
+    "forks": 3,
+    "language": "Python",
+    "updated_at": "2026-03-17"
+  },
+  "general-legal-research": {
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-17"
+  },
+  "game-legal-research": {
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-16"
+  },
+  "legal-translation-agent": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-19"
+  },
+  "legal-writing-agent": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-13"
+  },
+  "second-review-agent": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-18"
+  },
+  "stock-analysis-agent": {
+    "stars": 3,
+    "forks": 3,
+    "language": "Python",
+    "updated_at": "2026-03-13"
+  },
+  "investment-portfolio-advisor": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-17"
+  },
+  "everything-claude-code": {
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "updated_at": "2026-03-10"
+  },
+  "awesome-claude-code-subagents": {
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "updated_at": "2026-03-03"
+  },
+  "StockAnalysisClaudeSkill": {
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "updated_at": "2026-02-19"
+  },
+  "content-dashboard-agent": {
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "updated_at": "2026-03-16"
+  },
+  "web-content-designer": {
+    "stars": 1,
+    "forks": 0,
+    "language": "HTML",
+    "updated_at": "2026-03-05"
+  },
+  "podcast-briefing": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-21"
+  },
+  "ebook-writer": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-19"
+  },
+  "obsidian-auto-tagger": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-17"
+  },
+  "obsidian-vault-doctor": {
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "updated_at": "2026-03-21"
+  },
+  "nlm2obsidian": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-16"
+  },
+  "Project-26-Interior-Gallery": {
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "updated_at": "2026-02-23"
+  },
+  "DashGen-AI": {
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "updated_at": "2026-02-17"
+  }
+}
