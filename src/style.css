@@ -146,8 +146,27 @@ a:hover {
   color: var(--text-secondary);
   max-width: 520px;
   line-height: 1.7;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.hero-author {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding-bottom: 2px;
+  transition: all 0.3s var(--ease-out);
   margin-bottom: 48px;
   opacity: 0;
+}
+
+.hero-author:hover {
+  color: var(--text);
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 .scroll-hint {
@@ -536,6 +555,7 @@ a:hover {
   .hero-tag,
   .hero-title,
   .hero-sub,
+  .hero-author,
   .scroll-hint {
     opacity: 1 !important;
     transform: none !important;

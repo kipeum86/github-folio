@@ -35,7 +35,7 @@ export function initAnimations() {
   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   if (prefersReducedMotion) {
     // Show everything immediately
-    gsap.set('.hero-tag, .hero-title, .hero-sub, .scroll-hint', { opacity: 1 })
+    gsap.set('.hero-tag, .hero-title, .hero-sub, .hero-author, .scroll-hint', { opacity: 1 })
     return
   }
 
@@ -45,7 +45,8 @@ export function initAnimations() {
     .to('.hero-tag', { opacity: 1, y: 0, duration: 0.8 }, 0.3)
     .fromTo('.hero-title', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 1 }, 0.5)
     .to('.hero-sub', { opacity: 1, y: 0, duration: 0.8 }, 0.9)
-    .to('.scroll-hint', { opacity: 1, duration: 0.6 }, 1.3)
+    .to('.hero-author', { opacity: 1, duration: 0.6 }, 1.2)
+    .to('.scroll-hint', { opacity: 1, duration: 0.6 }, 1.4)
 
   // ── Stats counter animation ──
   const statNums = document.querySelectorAll('.stat-num')

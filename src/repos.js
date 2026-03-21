@@ -16,48 +16,48 @@ const repoData = [
     name: 'contract-review-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 심진주 변호사 — 법률 템플릿과 상대방 초안을 조항별로 분석하고, 수정사항이 반영된 DOCX 레드라인을 자동 생성하는 AI 계약 검토 에이전트.',
-      en: 'Jinju Law · Attorney Sim Jin-ju — Local-first AI contract review agent that turns legal templates and counterparty drafts into clause-level analysis and tracked-change DOCX redlines.',
+      ko: '법무법인 진주 · 고덕수 변호사 (6년차) — 상대방 계약서를 조항별로 분석하고, 수정사항이 반영된 DOCX 레드라인을 자동 생성하는 AI 계약 검토 에이전트.',
+      en: 'Jinju Law · Attorney Ko Duk-soo (6th yr) — Local-first AI contract review agent that turns legal templates and counterparty drafts into clause-level analysis and tracked-change DOCX redlines.',
     },
   },
   {
     name: 'general-legal-research',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 심진주 변호사 — 여러 국가의 법률을 비교·분석하는 AI 리서치 에이전트. 출처 검증, 신뢰도 점수 산정, 비교 분석 리포트 자동 생성.',
-      en: 'Jinju Law · Attorney Sim Jin-ju — Evidence-based legal research agent for cross-jurisdiction analysis, with source verification, reliability scoring, and structured comparative outputs.',
+      ko: '법무법인 진주 · 김재식 변호사 (5년차) — 17개국 이상의 법률을 비교·분석하는 AI 리서치 에이전트. 출처 검증, 신뢰도 점수 산정, 비교 분석 리포트 자동 생성.',
+      en: 'Jinju Law · Attorney Kim Jae-sik (5th yr) — Evidence-based legal research agent for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
     },
   },
   {
     name: 'game-legal-research',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 심진주 변호사 — 각국 게임 규제를 비교·분석하는 AI 리서치 에이전트. 출처 검증과 신뢰도 평가 기능 포함.',
-      en: 'Jinju Law · Attorney Sim Jin-ju — Evidence-based legal research agent for cross-jurisdiction game regulation, with source verification and reliability scoring.',
+      ko: '법무법인 진주 · 심진주 변호사 (3년차) — 각국 게임 규제(확률형 아이템, P2E, e스포츠, 미성년자 보호 등)를 비교·분석하는 AI 리서치 에이전트.',
+      en: 'Jinju Law · Attorney Sim Jin-ju (3rd yr) — Evidence-based legal research agent for cross-jurisdiction game regulation (loot boxes, P2E, esports, minor protection, etc.).',
     },
   },
   {
     name: 'legal-translation-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 심진주 변호사 — 5개 국어 법률 문서 번역 에이전트. 법률 용어의 정확성과 문서 구조를 그대로 유지하며 번역.',
-      en: 'Jinju Law · Attorney Sim Jin-ju — A Claude Code agent that translates legal documents with strict accuracy, consistency, and structural fidelity across 5 languages.',
+      ko: '법무법인 진주 · 변혁기 변호사 (4년차) — 5개 국어(한·영·중·대만·일) 법률 문서 번역 에이전트. 법률 용어의 정확성과 문서 구조를 유지하며 번역.',
+      en: 'Jinju Law · Attorney Byeon Hyeok-gi (4th yr) — Translates legal documents across 5 languages (EN, KO, ZH-CN, ZH-TW, JA) with strict accuracy and structural fidelity.',
     },
   },
   {
     name: 'legal-writing-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 심진주 변호사 — 한국어/영어 법률 문서 작성 에이전트. 각 관할권의 작성 관행에 맞춰 의견서, 준비서면 등을 초안·수정.',
-      en: 'Jinju Law · Attorney Sim Jin-ju — Bilingual (Korean/English) legal writing agent — drafts and revises non-contract legal documents with jurisdiction-appropriate conventions.',
+      ko: '법무법인 진주 · 한석봉 변호사 — 한국어/영어 법률 문서 작성 에이전트. 의견서, 준비서면 등을 각 관할권 관행에 맞춰 초안·수정.',
+      en: 'Jinju Law · Attorney Han Sok-pong — Bilingual (Korean/English) legal writing agent — drafts and revises advisory opinions, litigation filings, and regulatory documents.',
     },
   },
   {
     name: 'second-review-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 심진주 변호사 — AI가 생성한 법률 문서의 최종 검수 에이전트. 오류와 논리적 허점을 잡아내는 마지막 품질 관문.',
-      en: 'Jinju Law · Attorney Sim Jin-ju — Final quality gate for AI-generated legal documents, powered by Claude Code.',
+      ko: '법무법인 진주 · 반성문 파트너 (10년차) — AI가 생성한 법률 문서의 최종 검수 에이전트. 다른 에이전트들의 결과물을 빨간펜으로 검토하는 마지막 품질 관문.',
+      en: 'Jinju Law · Partner Ban Seong-mun (10th yr) — Final quality gate for AI-generated legal documents. Reviews work from all other agents with zero tolerance for hallucinated citations.',
     },
   },
 
@@ -108,7 +108,7 @@ const repoData = [
   },
   {
     name: 'web-content-designer',
-    category: 'Content & Web',
+    category: 'Claude Skills',
     description: {
       ko: '텍스트, 기사, URL을 완성도 높은 단일 HTML 페이지로 변환하는 Claude 스킬. 3가지 레이아웃, 10가지 디자인 테마.',
       en: 'Claude skill that transforms text, articles, or URLs into production-grade single-file HTML pages. 3 layouts, 10 design themes.',
