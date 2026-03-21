@@ -176,14 +176,6 @@ const repoData = [
     },
   },
   {
-    name: 'DashGen-AI',
-    category: 'Fun & Creative',
-    description: {
-      ko: 'YouTube 영상을 전략 분석 HTML 대시보드로 자동 변환.',
-      en: 'Turn any YouTube video into a sophisticated HTML strategy dashboard.',
-    },
-  },
-  {
     name: 'Dashboards-and-Archives',
     category: 'Fun & Creative',
     customUrl: 'https://kipeum86.github.io/Dashboards-and-Archives/',
