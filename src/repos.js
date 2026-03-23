@@ -97,6 +97,16 @@ const repoData = [
     },
   },
 
+  // ── Legal AI (Generalized Tools) ──
+  {
+    name: 'parlawatch',
+    category: 'Legal AI',
+    description: {
+      ko: '국회 모니터링 자동화 도구 — 국정감사/상임위 영상을 AI로 분석하여 산업별 맞춤 브리핑을 자동 생성. Google Sheets 기반.',
+      en: 'Parliament monitoring automation — AI-analyzes committee hearings and generates industry-specific briefings. Google Sheets-based, domain-agnostic.',
+    },
+  },
+
   // ── Content & Web ──
   {
     name: 'content-dashboard-agent',
@@ -137,6 +147,23 @@ const repoData = [
     description: {
       ko: 'AI 프롬프트 라이브러리 — 다양한 용도별 프롬프트 모음.',
       en: 'AI prompt library — a curated collection of prompts for various use cases.',
+    },
+  },
+
+  {
+    name: 'visual-story-engine',
+    category: 'Content & Web',
+    description: {
+      ko: '멀티 에이전트 비주얼 스토리텔링 엔진 — 텍스트 입력만으로 FT급 비주얼 스토리를 자동 생성.',
+      en: 'Multi-agent visual storytelling engine — generates FT-grade visual stories from text input.',
+    },
+  },
+  {
+    name: 'auto-newsbriefing',
+    category: 'Content & Web',
+    description: {
+      ko: '범용 뉴스레터 자동화 — RSS 수집, AI 분류/요약, Google Sheets 아카이브, 이메일 발송까지 어떤 도메인이든.',
+      en: 'Domain-agnostic newsletter automation — RSS collection, AI classification/summarization, Google Sheets archiving, and email dispatch for any industry.',
     },
   },
 
