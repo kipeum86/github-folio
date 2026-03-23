@@ -27,7 +27,7 @@
 
 GitHub profiles show a flat list of repositories. No hierarchy, no narrative, no craft.
 
-**github-folio** turns 30+ repos into a curated, scroll-driven experience — categorized, animated, bilingual, and updated daily with live GitHub stats. One page that tells the story of the work.
+**github-folio** turns hand-picked repos into a curated, scroll-driven experience — categorized, animated, and bilingual. GitHub stats (stars, forks, languages) refresh daily via CI; repos themselves are manually curated in `src/repos.js`.
 
 <br />
 
@@ -149,7 +149,7 @@ Fully automated via GitHub Actions:
 3. **Build** — Vite bundles to `dist/`
 4. **Deploy** — `actions/deploy-pages@v4` ships to GitHub Pages
 
-Stats refresh daily. No manual intervention needed.
+Stats refresh daily. Repos are manually curated in `src/repos.js` — add or remove entries to update the showcase.
 
 <br />
 
@@ -163,7 +163,7 @@ Stats refresh daily. No manual intervention needed.
 
 GitHub 프로필은 레포지토리를 날짜순으로 나열할 뿐입니다. 맥락도, 서사도, 디자인도 없습니다.
 
-**github-folio**는 30개 이상의 레포를 **카테고리별로 큐레이션**하고, **스크롤 애니메이션**과 **실시간 GitHub 통계**를 더한 시네마틱 포트폴리오입니다. 한국어/영어 전환을 지원하며, 매일 자동으로 빌드·배포됩니다.
+**github-folio**는 직접 선별한 레포를 **카테고리별로 큐레이션**하고, **스크롤 애니메이션**과 **GitHub 통계**를 더한 시네마틱 포트폴리오입니다. 한국어/영어 전환을 지원하며, 통계는 CI에서 매일 자동 갱신됩니다. 레포 추가/제거는 `src/repos.js`에서 수동으로 관리합니다.
 
 <br />
 
@@ -263,7 +263,7 @@ GitHub Actions로 완전 자동화:
 3. **빌드** — Vite가 `dist/`로 번들링
 4. **배포** — `actions/deploy-pages@v4`가 GitHub Pages에 배포
 
-통계는 매일 갱신됩니다. 수동 작업이 필요 없습니다.
+통계는 매일 갱신됩니다. 레포는 `src/repos.js`에서 수동으로 추가/제거합니다.
 
 <br />
 
