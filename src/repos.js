@@ -128,8 +128,8 @@ const repoData = [
     name: 'podcast-briefing',
     category: 'Content & Web',
     description: {
-      ko: 'AI가 큐레이션하는 팟캐스트 브리핑 — 9개 소스에서 한/영 요약을 뽑아 프리미엄 웹앱으로 제공.',
-      en: 'AI-curated bilingual podcast intelligence — 9 sources, KO/EN summaries, premium editorial web app.',
+      ko: 'AI가 큐레이션하는 팟캐스트 브리핑 — 10개 소스에서 한/영 요약을 뽑아 프리미엄 웹앱으로 제공.',
+      en: 'AI-curated bilingual podcast intelligence — 10 sources, KO/EN summaries, premium editorial web app.',
     },
   },
   {
@@ -151,7 +151,7 @@ const repoData = [
   },
 
   {
-    name: 'visual-story-engine',
+    name: 'visual-story-creator',
     category: 'Content & Web',
     description: {
       ko: '멀티 에이전트 비주얼 스토리텔링 엔진 — 텍스트 입력만으로 FT급 비주얼 스토리를 자동 생성.',
