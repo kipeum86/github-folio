@@ -60,6 +60,22 @@ const repoData = [
       en: 'Jinju Law · Partner Ban Seong-mun (10th yr) — Final quality gate for AI-generated legal documents. Reviews work from all other agents with zero tolerance for hallucinated citations.',
     },
   },
+  {
+    name: 'PIPA-expert',
+    category: 'Legal AI',
+    description: {
+      ko: '법무법인 진주 · 정보호 변호사 (5년차) — 개인정보보호법 전문 AI 에이전트. 929개 조문, 46개 공식 가이드라인, 1,498개 상호참조 기반 구조화 RAG.',
+      en: 'Jinju Law · Attorney Jeong Bo-ho (5th yr) — AI advisor for Korean data privacy law (PIPA). 929 statute articles, 46 PIPC guidelines, 1,498 cross-references via structured RAG.',
+    },
+  },
+  {
+    name: 'GDPR-expert',
+    category: 'Legal AI',
+    description: {
+      ko: '법무법인 진주 — EU 데이터 보호법 전문 AI 에이전트. GDPR, ePrivacy Directive, EU AI Act, Data Act, Data Governance Act를 구조화 RAG로 분석.',
+      en: 'Jinju Law — AI agent for EU data protection law. Covers GDPR, ePrivacy Directive, EU AI Act, Data Act, and Data Governance Act via agent-native structured RAG.',
+    },
+  },
 
   // ── Investment ──
   {
@@ -164,6 +180,14 @@ const repoData = [
     description: {
       ko: '범용 뉴스레터 자동화 — RSS 수집, AI 분류/요약, Google Sheets 아카이브, 이메일 발송까지 어떤 도메인이든.',
       en: 'Domain-agnostic newsletter automation — RSS collection, AI classification/summarization, Google Sheets archiving, and email dispatch for any industry.',
+    },
+  },
+  {
+    name: 'daily-brief',
+    category: 'Content & Web',
+    description: {
+      ko: 'AI 모닝 브리핑 — 한국·미국 시장 데이터, 글로벌 뉴스, AI 크로스마켓 분석을 매일 아침 자동 생성. 운영 비용 $0.',
+      en: 'AI-powered morning briefing for investors — Korean + US markets, global news, and AI cross-market analysis delivered daily at zero cost.',
     },
   },
 
