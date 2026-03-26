@@ -1,51 +1,63 @@
 {
   "contract-review-agent": {
-    "stars": 22,
+    "stars": 23,
     "forks": 3,
     "language": "Python",
-    "updated_at": "2026-03-17"
+    "updated_at": "2026-03-26"
   },
   "general-legal-research": {
     "stars": 2,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-23"
+    "updated_at": "2026-03-26"
   },
   "game-legal-research": {
     "stars": 1,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-23"
+    "updated_at": "2026-03-26"
   },
   "legal-translation-agent": {
     "stars": 0,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-23"
+    "updated_at": "2026-03-26"
   },
   "legal-writing-agent": {
     "stars": 0,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-13"
+    "updated_at": "2026-03-26"
   },
   "second-review-agent": {
     "stars": 0,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-23"
+    "updated_at": "2026-03-26"
+  },
+  "PIPA-expert": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-26"
+  },
+  "GDPR-expert": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-26"
   },
   "stock-analysis-agent": {
     "stars": 3,
     "forks": 3,
     "language": "Python",
-    "updated_at": "2026-03-22"
+    "updated_at": "2026-03-25"
   },
   "investment-portfolio-advisor": {
     "stars": 0,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-17"
+    "updated_at": "2026-03-25"
   },
   "StockAnalysisClaudeSkill": {
     "stars": 0,
@@ -63,7 +75,7 @@
     "stars": 0,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-23"
+    "updated_at": "2026-03-24"
   },
   "content-dashboard-agent": {
     "stars": 0,
@@ -107,6 +119,12 @@
     "language": "Python",
     "updated_at": "2026-03-23"
   },
+  "daily-brief": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-03-26"
+  },
   "obsidian-auto-tagger": {
     "stars": 0,
     "forks": 0,
@@ -142,24 +160,6 @@
     "forks": 0,
     "language": "HTML",
     "updated_at": "2026-03-16"
-  },
-  "PIPA-expert": {
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "updated_at": "2026-03-25"
-  },
-  "GDPR-expert": {
-    "stars": 0,
-    "forks": 0,
-    "language": null,
-    "updated_at": "2026-03-25"
-  },
-  "daily-brief": {
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "updated_at": "2026-03-25"
   },
   "2025-Reading-List": {
     "stars": 0,

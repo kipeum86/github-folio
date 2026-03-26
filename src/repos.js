@@ -72,8 +72,8 @@ const repoData = [
     name: 'GDPR-expert',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 — EU 데이터 보호법 전문 AI 에이전트. GDPR, ePrivacy Directive, EU AI Act, Data Act, Data Governance Act를 구조화 RAG로 분석.',
-      en: 'Jinju Law — AI agent for EU data protection law. Covers GDPR, ePrivacy Directive, EU AI Act, Data Act, and Data Governance Act via agent-native structured RAG.',
+      ko: '법무법인 진주 — EU 데이터 보호법 전문 AI 에이전트. 5개 EU 법률, 321개 조문 + 535개 전문(recital), 120개 EDPB 문서, 51개 CJEU 판례 — 1,060+ 항목 구조화 RAG.',
+      en: 'Jinju Law — AI agent for EU data protection law. 5 EU laws, 321 articles + 535 recitals, 120 EDPB documents, 51 CJEU cases — 1,060+ indexed items via structured RAG.',
     },
   },
 
