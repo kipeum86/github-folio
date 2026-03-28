@@ -31,10 +31,11 @@ function renderGrid(category = 'All') {
   if (!grid) return
 
   const lang = getLang()
-  const filtered =
+  const filtered = (
     category === 'All'
-      ? repos
+      ? [...repos]
       : repos.filter((r) => r.category === category)
+  ).sort((a, b) => (b.stars || 0) - (a.stars || 0))
 
   if (!filtered.length) {
     grid.innerHTML = `<p style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:48px 0;">${
