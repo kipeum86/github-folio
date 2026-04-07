@@ -122,6 +122,14 @@ const repoData = [
       en: 'Parliament monitoring automation — AI-analyzes committee hearings and generates industry-specific briefings. Google Sheets-based, domain-agnostic.',
     },
   },
+  {
+    name: 'game-legal-briefing',
+    category: 'Legal AI',
+    description: {
+      ko: '게임 산업 규제 인텔리전스 — 54개 RSS 피드에서 법률·규제 기사를 수집, AI 분류·요약 후 정적 브리핑 사이트 및 이메일로 자동 발행.',
+      en: 'Open-source regulatory intelligence for the game industry — collects from 54 RSS feeds, AI-classifies and summarizes legal/regulatory articles, and publishes as a static briefing site with email delivery.',
+    },
+  },
 
   // ── Content & Web ──
   {
