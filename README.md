@@ -267,6 +267,12 @@ GitHub Actions로 완전 자동화:
 
 <br />
 
+## 라이선스
+
+[Apache License 2.0](LICENSE) 하에 배포됩니다.
+
+<br />
+
 ---
 
 <p align="center">
