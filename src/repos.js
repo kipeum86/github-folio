@@ -64,8 +64,8 @@ const repoData = [
     name: 'PIPA-expert',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 정보호 변호사 (5년차) — 개인정보보호법 전문 AI 에이전트. 929개 조문, 46개 공식 가이드라인, 1,498개 상호참조 기반 구조화 RAG.',
-      en: 'Jinju Law · Attorney Jeong Bo-ho (5th yr) — AI advisor for Korean data privacy law (PIPA). 929 statute articles, 46 PIPC guidelines, 1,498 cross-references via structured RAG.',
+      ko: '법무법인 진주 · 정보호 변호사 (5년차) — 개인정보보호법 전문 AI 에이전트. 929개 조문, 46개 공식 가이드라인, 30건 landmark 판례·해석례, 2,369개 상호참조 기반 구조화 RAG.',
+      en: 'Jinju Law · Attorney Jeong Bo-ho (5th yr) — AI advisor for Korean data privacy law (PIPA). 929 statute articles, 46 PIPC guidelines, 30 landmark case law & interpretations, 2,369 cross-references via structured RAG.',
     },
   },
   {
