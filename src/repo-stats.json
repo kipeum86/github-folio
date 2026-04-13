@@ -35,6 +35,12 @@
     "language": "Python",
     "updated_at": "2026-03-26"
   },
+  "legal-agent-orchestrator": {
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-04-12"
+  },
   "PIPA-expert": {
     "stars": 0,
     "forks": 0,
@@ -83,6 +89,12 @@
     "language": "Python",
     "updated_at": "2026-03-24"
   },
+  "assembly-intelligence": {
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "updated_at": "2026-04-13"
+  },
   "content-dashboard-agent": {
     "stars": 0,
     "forks": 0,
@@ -100,6 +112,12 @@
     "forks": 0,
     "language": "Python",
     "updated_at": "2026-03-23"
+  },
+  "youtube-briefing": {
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "updated_at": "2026-04-13"
   },
   "ebook-writer": {
     "stars": 0,

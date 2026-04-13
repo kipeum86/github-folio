@@ -61,6 +61,14 @@ const repoData = [
     },
   },
   {
+    name: 'legal-agent-orchestrator',
+    category: 'Legal AI',
+    description: {
+      ko: 'Claude Code 기반 AI 로펌 오케스트레이터. 8명의 전문 변호사 에이전트가 각자 관할권, 지식베이스, MCP 도구를 바탕으로 협업하고 감사 추적까지 남깁니다.',
+      en: 'An AI law firm running on Claude Code. Eight specialist lawyer agents collaborate with their own jurisdictions, knowledge bases, and MCP tools to produce legal opinions with full audit trails.',
+    },
+  },
+  {
     name: 'PIPA-expert',
     category: 'Legal AI',
     description: {
@@ -123,6 +131,14 @@ const repoData = [
     },
   },
   {
+    name: 'assembly-intelligence',
+    category: 'Legal AI',
+    description: {
+      ko: '산업별 종합 국회 모니터링 시스템 — 의안, 회의, 발언, 정책 신호를 추적해 국회 인텔리전스로 정리합니다.',
+      en: 'Comprehensive National Assembly monitoring for industry-specific intelligence across bills, hearings, and policy signals.',
+    },
+  },
+  {
     name: 'game-legal-briefing',
     category: 'Legal AI',
     description: {
@@ -154,6 +170,14 @@ const repoData = [
     description: {
       ko: 'AI가 큐레이션하는 팟캐스트 브리핑 — 10개 소스에서 한/영 요약을 뽑아 프리미엄 웹앱으로 제공.',
       en: 'AI-curated bilingual podcast intelligence — 10 sources, KO/EN summaries, premium editorial web app.',
+    },
+  },
+  {
+    name: 'youtube-briefing',
+    category: 'Content & Web',
+    description: {
+      ko: '한국 경제·시사 유튜브를 자동 요약해 에디토리얼 피드 형태의 브리핑으로 발행하는 시스템.',
+      en: 'Auto-summarized Korean economics and current-affairs YouTube, published as an editorial feed.',
     },
   },
   {
