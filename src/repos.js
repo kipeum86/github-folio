@@ -84,6 +84,14 @@ const repoData = [
       en: 'Jinju Law · Attorney Kim De Bruyne — AI agent for EU data protection law. 5 EU laws, 321 articles + 535 recitals, 120 EDPB documents, 51 CJEU cases — 1,060+ indexed items via structured RAG.',
     },
   },
+  {
+    name: 'document-redactor',
+    category: 'Legal AI',
+    description: {
+      ko: 'AI 업로드 전 안전 단계용 오프라인 DOCX 비식별화 도구. 계약서·의견서·소송 문서의 민감 정보를 로컬 브라우저에서 검토·삭제하고 검증된 `.redacted.docx`를 생성합니다.',
+      en: 'Offline DOCX redactor for the safety step before AI. Reviews and removes sensitive strings from contracts, memos, and court filings locally, then exports a verified `.redacted.docx`.',
+    },
+  },
 
   // ── Investment ──
   {

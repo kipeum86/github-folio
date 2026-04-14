@@ -65,7 +65,7 @@ GitHub Actions   →  Daily stats fetch → build → deploy to GitHub Pages
 github-folio/
 ├── src/
 │   ├── main.js            # Entry — renders grid, wires stats counters
-│   ├── repos.js           # Curated repo data (34 repos, 6 categories + All)
+│   ├── repos.js           # Curated repo data (35 repos, 6 categories + All)
 │   ├── i18n.js            # KO/EN translations + toggle logic
 │   ├── animations.js      # GSAP timelines, Lenis, ScrollTrigger
 │   ├── filters.js         # Category filter transitions
@@ -131,7 +131,7 @@ npm run build && npm run preview
 
 | Category | Repos | Highlights |
 |---|---|---|
-| **Legal AI** | 12 | Contract review, multi-jurisdiction research, translation, quality gate, assembly intelligence |
+| **Legal AI** | 13 | Contract review, document redaction, multi-jurisdiction research, translation, assembly intelligence |
 | **Investment** | 2 | Institutional-grade stock analysis, portfolio advisory |
 | **Claude Skills** | 3 | Investment dashboards, travel planner, web content designer |
 | **Content & Web** | 8 | Podcast briefing, YouTube briefing, ebook writer, visual storytelling, newsletter automation |
@@ -142,6 +142,7 @@ npm run build && npm run preview
 
 ## Recent Additions
 
+- `document-redactor` — Offline DOCX redaction tool for legal work, built as the local safety step before documents go into any AI assistant.
 - `youtube-briefing` — Auto-summarized Korean economics and current-affairs YouTube, published as an editorial feed.
 - `assembly-intelligence` — Comprehensive National Assembly monitoring for industry-specific intelligence across bills, hearings, and policy signals.
 - `legal-agent-orchestrator` — An AI law firm on Claude Code with eight specialist lawyer agents and full audit trails.
@@ -253,7 +254,7 @@ npm run build && npm run preview
 
 | 카테고리 | 레포 수 | 주요 프로젝트 |
 |---|---|---|
-| **Legal AI** | 12 | 계약 검토, 다관할권 리서치, 법률 번역, 최종 검수, 국회 인텔리전스 |
+| **Legal AI** | 13 | 계약 검토, 문서 비식별화, 다관할권 리서치, 법률 번역, 국회 인텔리전스 |
 | **투자** | 2 | 기관급 주식 분석, 포트폴리오 어드바이저 |
 | **Claude Skills** | 3 | 투자 대시보드, 여행 플래너, 웹 콘텐츠 디자이너 |
 | **콘텐츠 & 웹** | 8 | 팟캐스트 브리핑, 유튜브 브리핑, 전자책 생성, 비주얼 스토리, 뉴스레터 자동화 |
@@ -264,6 +265,7 @@ npm run build && npm run preview
 
 ## 최근 추가
 
+- `document-redactor` — 법률 문서를 AI에 넣기 전, 로컬에서 민감정보를 비식별화하는 오프라인 DOCX 레닥션 도구.
 - `youtube-briefing` — 한국 경제·시사 유튜브를 자동 요약해 에디토리얼 피드로 발행하는 브리핑 시스템.
 - `assembly-intelligence` — 산업별 의안, 회의, 발언, 정책 신호를 추적하는 종합 국회 모니터링 시스템.
 - `legal-agent-orchestrator` — Claude Code 위에서 8명의 전문 변호사 에이전트가 협업하는 AI 로펌 오케스트레이터.
