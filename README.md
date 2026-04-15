@@ -268,7 +268,7 @@ npm run build && npm run preview
 - `document-redactor` — 법률 문서를 AI에 넣기 전, 로컬에서 민감정보를 비식별화하는 오프라인 DOCX 레닥션 도구.
 - `youtube-briefing` — 한국 경제·시사 유튜브를 자동 요약해 에디토리얼 피드로 발행하는 브리핑 시스템.
 - `assembly-intelligence` — 산업별 의안, 회의, 발언, 정책 신호를 추적하는 종합 국회 모니터링 시스템.
-- `legal-agent-orchestrator` — Claude Code 위에서 8개의 스페셜리스트 에이전트를 조율하는 AI 기반 법률 워크플로우 시스템.
+- `legal-agent-orchestrator` — Claude Code 위에서 8명의 전문 리걸 에이전트를 조율하고, 모든 협업 과정을 감사 추적으로 남기는 오케스트레이터.
 
 <br />
 

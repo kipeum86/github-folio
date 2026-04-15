@@ -6,7 +6,7 @@ const translations = {
     heroTitleComma: ',',
     heroTitle3: 'shipped with ',
     heroTitle4: 'craft',
-    heroSub: 'AI 에이전트, 법률 워크플로우 시스템, 대시보드, 그리고 개발자 도구 — 각 프로젝트는 엄선되어 일정한 품질 기준에 맞춰 구축되었습니다.',
+    heroSub: 'AI 에이전트, 리걸 에이전트, 대시보드, 그리고 개발자 도구 — 각 프로젝트는 엄선되어 일정한 품질 기준에 맞춰 구축되었습니다.',
     scrollHint: '스크롤하여 탐색',
     statRepos: '레포지토리',
     statStars: '스타',
