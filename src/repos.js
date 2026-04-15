@@ -16,72 +16,72 @@ const repoData = [
     name: 'contract-review-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 고덕수 변호사 (6년차) — 상대방 계약서를 조항별로 분석하고, 수정사항이 반영된 DOCX 레드라인을 자동 생성하는 AI 계약 검토 에이전트.',
-      en: 'Jinju Law · Attorney Ko Duk-soo (6th yr) — Local-first AI contract review agent that turns legal templates and counterparty drafts into clause-level analysis and tracked-change DOCX redlines.',
+      ko: '진주 리걸 오케스트레이터 · 계약 검토 스페셜리스트 고덕수 — 상대방 계약서를 조항별로 분석하고, DOCX 레드라인과 검토 메모를 생성하는 계약 검토 워크플로우.',
+      en: 'Jinju Legal Orchestrator · Contract Specialist Ko Duksoo — Contract review workflow that turns counterparty drafts into clause-level analysis, tracked-change DOCX redlines, and review memos.',
     },
   },
   {
     name: 'general-legal-research',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 김재식 변호사 (5년차) — 17개국 이상의 법률을 비교·분석하는 AI 리서치 에이전트. 출처 검증, 신뢰도 점수 산정, 비교 분석 리포트 자동 생성.',
-      en: 'Jinju Law · Attorney Kim Jae-sik (5th yr) — Evidence-based legal research agent for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
+      ko: '진주 리걸 오케스트레이터 · 리서치 스페셜리스트 김재식 — 17개국 이상을 대상으로 출처 검증, 신뢰도 점수 산정, 비교 분석을 수행하는 증거 기반 국제 법률 리서치 워크플로우.',
+      en: 'Jinju Legal Orchestrator · Research Specialist Kim Jaesik — Evidence-based international legal research workflow for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
     },
   },
   {
     name: 'game-legal-research',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 심진주 변호사 (3년차) — 각국 게임 규제(확률형 아이템, P2E, e스포츠, 미성년자 보호 등)를 비교·분석하는 AI 리서치 에이전트.',
-      en: 'Jinju Law · Attorney Sim Jin-ju (3rd yr) — Evidence-based legal research agent for cross-jurisdiction game regulation (loot boxes, P2E, esports, minor protection, etc.).',
+      ko: '진주 리걸 오케스트레이터 · 게임 산업법 스페셜리스트 심진주 — 확률형 아이템, P2E, e스포츠, 미성년자 보호 등 게임 규제를 관할권별로 비교하는 증거 기반 리서치 워크플로우.',
+      en: 'Jinju Legal Orchestrator · Game Industry Specialist Sim Jinju — Evidence-based research workflow for cross-jurisdiction game regulation, including loot boxes, P2E, esports, and minor protection.',
     },
   },
   {
     name: 'legal-translation-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 변혁기 변호사 (4년차) — 5개 국어(한·영·중·대만·일) 법률 문서 번역 에이전트. 법률 용어의 정확성과 문서 구조를 유지하며 번역.',
-      en: 'Jinju Law · Attorney Byeon Hyeok-gi (4th yr) — Translates legal documents across 5 languages (EN, KO, ZH-CN, ZH-TW, JA) with strict accuracy and structural fidelity.',
+      ko: '진주 리걸 오케스트레이터 · 법률 번역 스페셜리스트 변혁기 — 5개 언어(한·영·중·대만·일) 사이에서 법률 문서를 정확성과 구조를 유지한 채 번역하는 워크플로우 에이전트.',
+      en: 'Jinju Legal Orchestrator · Legal Translation Specialist Byeon Hyeok-gi — Translates legal documents across 5 languages (EN, KO, ZH-CN, ZH-TW, JA) with strict accuracy, consistency, and structural fidelity.',
     },
   },
   {
     name: 'legal-writing-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 한석봉 변호사 — 한국어/영어 법률 문서 작성 에이전트. 의견서, 준비서면 등을 각 관할권 관행에 맞춰 초안·수정.',
-      en: 'Jinju Law · Attorney Han Sok-pong — Bilingual (Korean/English) legal writing agent — drafts and revises advisory opinions, litigation filings, and regulatory documents.',
+      ko: '진주 리걸 오케스트레이터 · 법률 드래프팅 스페셜리스트 한석봉 — 한국어/영어 비계약 법률 문서를 각 관할권 관행에 맞춰 초안·수정하는 이중언어 작성 워크플로우.',
+      en: 'Jinju Legal Orchestrator · Legal Drafting Specialist Han Seokbong — Bilingual workflow for drafting and revising non-contract legal documents in Korean and English.',
     },
   },
   {
     name: 'second-review-agent',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 반성문 파트너 (10년차) — AI가 생성한 법률 문서의 최종 검수 에이전트. 다른 에이전트들의 결과물을 빨간펜으로 검토하는 마지막 품질 관문.',
-      en: 'Jinju Law · Partner Ban Seong-mun (10th yr) — Final quality gate for AI-generated legal documents. Reviews work from all other agents with zero tolerance for hallucinated citations.',
+      ko: '진주 리걸 오케스트레이터 · 시니어 리뷰 스페셜리스트 반성문 — AI가 생성한 법률 문서를 외부 공유 전 한 번 더 검증하고 레드라인 DOCX를 반환하는 최종 품질 게이트.',
+      en: 'Jinju Legal Orchestrator · Senior Review Specialist Ban Seong-mun — Final quality gate for AI-generated legal documents, verifying citations and returning redlined DOCX with tracked changes.',
     },
   },
   {
     name: 'legal-agent-orchestrator',
     category: 'Legal AI',
     description: {
-      ko: 'Claude Code 기반 AI 로펌 오케스트레이터. 8명의 전문 변호사 에이전트가 각자 관할권, 지식베이스, MCP 도구를 바탕으로 협업하고 감사 추적까지 남깁니다.',
-      en: 'An AI law firm running on Claude Code. Eight specialist lawyer agents collaborate with their own jurisdictions, knowledge bases, and MCP tools to produce legal opinions with full audit trails.',
+      ko: 'Claude Code 기반 AI 법률 워크플로우 시스템. 리드 오케스트레이터가 8개의 스페셜리스트 에이전트를 조율해 리서치, 드래프팅, 리뷰, 검증을 하나의 감사 친화적 결과물로 묶습니다.',
+      en: 'An AI-based legal workflow system running on Claude Code. A lead orchestrator coordinates 8 specialist agents across research, drafting, review, and verification with audit-friendly outputs.',
     },
   },
   {
     name: 'PIPA-expert',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 정보호 변호사 (5년차) — 개인정보보호법 전문 AI 에이전트. 929개 조문, 46개 공식 가이드라인, 30건 landmark 판례·해석례, 2,369개 상호참조 기반 구조화 RAG.',
-      en: 'Jinju Law · Attorney Jeong Bo-ho (5th yr) — AI advisor for Korean data privacy law (PIPA). 929 statute articles, 46 PIPC guidelines, 30 landmark case law & interpretations, 2,369 cross-references via structured RAG.',
+      ko: '진주 리걸 오케스트레이터 · 개인정보 스페셜리스트 정보호 — 929개 조문, 46개 공식 가이드라인, 30건 landmark 판례·해석례, 2,369개 상호참조를 바탕으로 작동하는 개인정보보호 리서치 워크플로우.',
+      en: 'Jinju Legal Orchestrator · Privacy Specialist Jeong Bo-ho — Korean data privacy research workflow built on 929 statute articles, 46 PIPC guidelines, 30 landmark cases & interpretations, and 2,369 cross-references.',
     },
   },
   {
     name: 'GDPR-expert',
     category: 'Legal AI',
     description: {
-      ko: '법무법인 진주 · 김덕배 변호사 — EU 데이터 보호법 전문 AI 에이전트. 5개 EU 법률, 321개 조문 + 535개 전문(recital), 120개 EDPB 문서, 51개 CJEU 판례 — 1,060+ 항목 구조화 RAG.',
-      en: 'Jinju Law · Attorney Kim De Bruyne — AI agent for EU data protection law. 5 EU laws, 321 articles + 535 recitals, 120 EDPB documents, 51 CJEU cases — 1,060+ indexed items via structured RAG.',
+      ko: '진주 리걸 오케스트레이터 · EU 데이터 보호 스페셜리스트 김덕배 — 5개 EU 법률, 321개 조문 + 535개 전문, 120개 EDPB 문서, 51개 CJEU 판례를 구조화한 데이터 보호 리서치 워크플로우.',
+      en: 'Jinju Legal Orchestrator · EU Data Protection Specialist Kim De Bruyne — EU data protection workflow built on 5 EU laws, 321 articles + 535 recitals, 120 EDPB documents, and 51 CJEU cases via structured RAG.',
     },
   },
   {
