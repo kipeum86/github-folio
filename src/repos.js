@@ -24,8 +24,8 @@ const repoData = [
     name: 'general-legal-research',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 국제법 리서치 담당 김재식 — 17개국 이상의 법률을 대상으로 출처 검증, 신뢰도 점수 산정, 비교 분석까지 수행하는 증거 기반 리서치 에이전트.',
-      en: 'KP Legal Agent · Research Specialist Kim Jaesik — Evidence-based international legal research workflow for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
+      ko: 'KP Legal Agent · 해외법령 리서치 담당 김재식 — 17개국 이상의 법률을 대상으로 출처 검증, 신뢰도 점수 산정, 비교 분석까지 수행하는 증거 기반 리서치 에이전트.',
+      en: 'KP Legal Agent · Foreign Law Research Specialist Kim Jaesik — Evidence-based foreign law research workflow for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
     },
   },
   {
