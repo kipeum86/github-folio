@@ -16,48 +16,48 @@ const repoData = [
     name: 'contract-review-agent',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 계약 검토 담당 고덕수 — 상대방 계약서를 조항별로 분석하고, DOCX 레드라인과 검토 메모를 자동으로 생성합니다.',
-      en: 'KP Legal Agent · Contract Specialist Ko Duksoo — Contract review workflow that turns counterparty drafts into clause-level analysis, tracked-change DOCX redlines, and review memos.',
+      ko: 'KP Legal Agent · 계약 검토 — 상대방 계약서를 조항별로 분석하고, DOCX 레드라인과 검토 메모를 자동으로 생성합니다.',
+      en: 'KP Legal Agent · Contract Review — Contract review workflow that turns counterparty drafts into clause-level analysis, tracked-change DOCX redlines, and review memos.',
     },
   },
   {
     name: 'general-legal-research',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 해외법령 리서치 담당 김재식 — 17개국 이상의 법률을 대상으로 출처 검증, 신뢰도 점수 산정, 비교 분석까지 수행하는 증거 기반 리서치 에이전트.',
-      en: 'KP Legal Agent · Foreign Law Research Specialist Kim Jaesik — Evidence-based foreign law research workflow for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
+      ko: 'KP Legal Agent · 해외법령 리서치 — 17개국 이상의 법률을 대상으로 출처 검증, 신뢰도 점수 산정, 비교 분석까지 수행하는 증거 기반 리서치 에이전트.',
+      en: 'KP Legal Agent · Foreign Law Research — Evidence-based foreign law research workflow for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
     },
   },
   {
     name: 'game-legal-research',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 게임 산업법 담당 심진주 — 확률형 아이템, P2E, e스포츠, 미성년자 보호 등 각국 게임 규제를 관할권별로 비교·분석하는 증거 기반 리서치 에이전트.',
-      en: 'KP Legal Agent · Game Industry Specialist Sim Jinju — Evidence-based research workflow for cross-jurisdiction game regulation, including loot boxes, P2E, esports, and minor protection.',
+      ko: 'KP Legal Agent · 게임 산업법 — 확률형 아이템, P2E, e스포츠, 미성년자 보호 등 각국 게임 규제를 관할권별로 비교·분석하는 증거 기반 리서치 에이전트.',
+      en: 'KP Legal Agent · Game Industry Law — Evidence-based research workflow for cross-jurisdiction game regulation, including loot boxes, P2E, esports, and minor protection.',
     },
   },
   {
     name: 'legal-translation-agent',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 법률 번역 담당 변혁기 — 한·영·중·대만·일 5개 언어 사이에서 법률 용어의 정확성과 문서 구조를 유지하며 번역하는 에이전트.',
-      en: 'KP Legal Agent · Legal Translation Specialist Byeon Hyeok-gi — Translates legal documents across 5 languages (EN, KO, ZH-CN, ZH-TW, JA) with strict accuracy, consistency, and structural fidelity.',
+      ko: 'KP Legal Agent · 법률 번역 — 한·영·중·대만·일 5개 언어 사이에서 법률 용어의 정확성과 문서 구조를 유지하며 번역하는 에이전트.',
+      en: 'KP Legal Agent · Legal Translation — Translates legal documents across 5 languages (EN, KO, ZH-CN, ZH-TW, JA) with strict accuracy, consistency, and structural fidelity.',
     },
   },
   {
     name: 'legal-writing-agent',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 법률 문서 작성 담당 한석봉 — 한국어·영어 법률 문서(의견서, 준비서면 등)를 각 관할권 관행에 맞춰 초안·수정하는 이중언어 작성 에이전트.',
-      en: 'KP Legal Agent · Legal Drafting Specialist Han Seokbong — Bilingual workflow for drafting and revising non-contract legal documents in Korean and English.',
+      ko: 'KP Legal Agent · 법률 문서 작성 — 한국어·영어 법률 문서(의견서, 준비서면 등)를 각 관할권 관행에 맞춰 초안·수정하는 이중언어 작성 에이전트.',
+      en: 'KP Legal Agent · Legal Drafting — Bilingual workflow for drafting and revising non-contract legal documents in Korean and English.',
     },
   },
   {
     name: 'second-review-agent',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 시니어 검수 담당 반성문 — AI가 생성한 법률 문서를 외부 공유 전 마지막으로 검증하고, 빨간펜 레드라인 DOCX로 돌려주는 최종 품질 관문.',
-      en: 'KP Legal Agent · Senior Review Specialist Ban Seong-mun — Final quality gate for AI-generated legal documents, verifying citations and returning redlined DOCX with tracked changes.',
+      ko: 'KP Legal Agent · 시니어 검수 — AI가 생성한 법률 문서를 외부 공유 전 마지막으로 검증하고, 빨간펜 레드라인 DOCX로 돌려주는 최종 품질 관문.',
+      en: 'KP Legal Agent · Senior Review — Final quality gate for AI-generated legal documents, verifying citations and returning redlined DOCX with tracked changes.',
     },
   },
   {
@@ -72,16 +72,16 @@ const repoData = [
     name: 'PIPA-expert',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 개인정보보호 담당 정보호 — 929개 조문, 46개 공식 가이드라인, landmark 판례·해석례 30건, 상호참조 2,369개를 구조화 RAG로 다루는 개인정보보호법 리서치 에이전트.',
-      en: 'KP Legal Agent · Privacy Specialist Jeong Bo-ho — Korean data privacy research workflow built on 929 statute articles, 46 PIPC guidelines, 30 landmark cases & interpretations, and 2,369 cross-references.',
+      ko: 'KP Legal Agent · 개인정보보호 — 929개 조문, 46개 공식 가이드라인, landmark 판례·해석례 30건, 상호참조 2,369개를 구조화 RAG로 다루는 개인정보보호법 리서치 에이전트.',
+      en: 'KP Legal Agent · Privacy — Korean data privacy research workflow built on 929 statute articles, 46 PIPC guidelines, 30 landmark cases & interpretations, and 2,369 cross-references.',
     },
   },
   {
     name: 'GDPR-expert',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · EU 데이터 보호 담당 김덕배 — 5개 EU 법률, 321개 조문 + 535개 전문(recital), EDPB 문서 120건, CJEU 판례 51건을 구조화 RAG로 다루는 EU 데이터 보호 리서치 에이전트.',
-      en: 'KP Legal Agent · EU Data Protection Specialist Kim De Bruyne — EU data protection workflow built on 5 EU laws, 321 articles + 535 recitals, 120 EDPB documents, and 51 CJEU cases via structured RAG.',
+      ko: 'KP Legal Agent · EU 데이터 보호 — 5개 EU 법률, 321개 조문 + 535개 전문(recital), EDPB 문서 120건, CJEU 판례 51건을 구조화 RAG로 다루는 EU 데이터 보호 리서치 에이전트.',
+      en: 'KP Legal Agent · EU Data Protection — EU data protection workflow built on 5 EU laws, 321 articles + 535 recitals, 120 EDPB documents, and 51 CJEU cases via structured RAG.',
     },
   },
   {
