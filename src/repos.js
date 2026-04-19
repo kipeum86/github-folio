@@ -61,14 +61,6 @@ const repoData = [
     },
   },
   {
-    name: 'legal-agent-orchestrator',
-    category: 'Legal AI',
-    description: {
-      ko: 'KP Legal Agent 오케스트레이터 — Claude Code 기반으로 8명의 전문 리걸 에이전트가 리서치·작성·검수·검증을 분업해 협업하고, 모든 과정을 감사 추적으로 남깁니다.',
-      en: 'KP Legal Agent Orchestrator — Claude Code-based lead orchestrator coordinating 8 specialist agents across research, drafting, review, and verification with audit-friendly outputs.',
-    },
-  },
-  {
     name: 'PIPA-expert',
     category: 'Legal AI',
     description: {
