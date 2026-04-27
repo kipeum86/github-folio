@@ -31,11 +31,13 @@ function renderGrid(category = 'All') {
   if (!grid) return
 
   const lang = getLang()
-  const filtered = (
-    category === 'All'
-      ? [...repos]
-      : repos.filter((r) => r.category === category)
-  ).sort((a, b) => (b.stars || 0) - (a.stars || 0))
+  const matchesCategory = (r, cat) => {
+    if (cat === 'All') return true
+    return Array.isArray(r.category) ? r.category.includes(cat) : r.category === cat
+  }
+  const filtered = repos
+    .filter((r) => matchesCategory(r, category))
+    .sort((a, b) => (b.stars || 0) - (a.stars || 0))
 
   if (!filtered.length) {
     grid.innerHTML = `<p style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:48px 0;">${
@@ -48,7 +50,7 @@ function renderGrid(category = 'All') {
     .map(
       (repo) => `
     <a href="${getRepoUrl(repo)}" target="_blank" rel="noopener" class="repo-card">
-      <div class="repo-category">${repo.category}</div>
+      <div class="repo-category">${Array.isArray(repo.category) ? repo.category.join(' · ') : repo.category}</div>
       <div class="repo-name">${repo.name}</div>
       <div class="repo-desc">${repo.description[lang] || repo.description.en}</div>
       <div class="repo-meta">

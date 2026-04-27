@@ -61,6 +61,22 @@ const repoData = [
     },
   },
   {
+    name: 'legal-agent-orchestrator',
+    category: 'Legal AI',
+    description: {
+      ko: 'KP 리걸 오케스트레이터 — 8명의 전문 에이전트를 질문 유형에 따라 분류·라우팅하고, 순차·병렬·토론 협업으로 감사 가능한 법률 분석을 만드는 멀티 에이전트 워크플로 시스템.',
+      en: 'KP Legal Orchestrator — Multi-agent legal workflow that classifies each question, routes it to one of 8 specialists, and runs sequential / parallel / debate collaboration to produce audit-friendly legal analysis with full process logs.',
+    },
+  },
+  {
+    name: 'citation-auditor',
+    category: ['Legal AI', 'Skills / Plugins'],
+    description: {
+      ko: 'AI Trust Infrastructure · 인용 감사 — AI가 만든 법률·의료·학술 문서의 인용과 사실 주장을 한국법·미국법·EU법·UK법·학술·일반지식·웹 7개 검증기로 검사하고 ✅ ⚠️ ❓ 배지로 마크업하는 Claude Code 플러그인.',
+      en: 'AI Trust Infrastructure · Citation Audit — Claude Code plugin that audits AI-generated documents (legal, medical, academic) using 7 verifiers (Korean / US / UK / EU law, academic, general knowledge, web) and annotates outputs with ✅ ⚠️ ❓ verdict badges.',
+    },
+  },
+  {
     name: 'PIPA-expert',
     category: 'Legal AI',
     description: {
@@ -103,10 +119,10 @@ const repoData = [
     },
   },
 
-  // ── Claude Skills ──
+  // ── Skills / Plugins ──
   {
     name: 'StockAnalysisClaudeSkill',
-    category: 'Claude Skills',
+    category: 'Skills / Plugins',
     description: {
       ko: '상장 기업의 종합 투자 분석 HTML 대시보드를 자동 생성하는 Claude 스킬.',
       en: 'Claude skill that generates comprehensive, premium investment analysis HTML dashboards for any publicly traded company.',
@@ -114,7 +130,7 @@ const repoData = [
   },
   {
     name: 'travel-planner-dashboard',
-    category: 'Claude Skills',
+    category: 'Skills / Plugins',
     description: {
       ko: '여행 계획을 인터랙티브 HTML 대시보드로 만들어주는 Claude 스킬.',
       en: 'Claude skill for creating interactive HTML travel plan dashboards.',
@@ -158,7 +174,7 @@ const repoData = [
   },
   {
     name: 'web-content-designer',
-    category: 'Claude Skills',
+    category: 'Skills / Plugins',
     description: {
       ko: '텍스트, 기사, URL을 완성도 높은 단일 HTML 페이지로 변환하는 Claude 스킬. 3가지 레이아웃, 10가지 디자인 테마.',
       en: 'Claude skill that transforms text, articles, or URLs into production-grade single-file HTML pages. 3 layouts, 10 design themes.',
@@ -322,7 +338,7 @@ export const categories = [
   'All',
   'Legal AI',
   'Investment',
-  'Claude Skills',
+  'Skills / Plugins',
   'Content & Web',
   'Obsidian',
   'Fun & Creative',
