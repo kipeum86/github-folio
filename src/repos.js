@@ -165,6 +165,14 @@ const repoData = [
 
   // ── Content & Web ──
   {
+    name: 'briefing-hub',
+    category: 'Content & Web',
+    description: {
+      ko: '브리핑 허브 — 영어 팟캐스트, 한국 유튜브, 데일리 매크로, 게임 산업법, Economist 큐레이션 5개 브리핑 사이트의 최신 항목을 한 페이지로 모아 보여주는 정적 Astro 포털.',
+      en: 'Briefing Hub — Static Astro portal that aggregates the latest item from 5 briefing sites (English podcasts, Korean YouTube, daily macro, game-industry law, Economist curation) into a single weekly view.',
+    },
+  },
+  {
     name: 'content-dashboard-agent',
     category: 'Content & Web',
     description: {
