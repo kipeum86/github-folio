@@ -21,19 +21,11 @@ const repoData = [
     },
   },
   {
-    name: 'general-legal-research',
+    name: 'legal-research-agent',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 해외법령 리서치 — 17개국 이상의 법률을 대상으로 출처 검증, 신뢰도 점수 산정, 비교 분석까지 수행하는 증거 기반 리서치 에이전트.',
-      en: 'KP Legal Agent · Foreign Law Research — Evidence-based foreign law research workflow for 17+ jurisdictions, with source verification, reliability scoring, and structured comparative outputs.',
-    },
-  },
-  {
-    name: 'game-legal-research',
-    category: 'Legal AI',
-    description: {
-      ko: 'KP Legal Agent · 게임 산업법 — 확률형 아이템, P2E, e스포츠, 미성년자 보호 등 각국 게임 규제를 관할권별로 비교·분석하는 증거 기반 리서치 에이전트.',
-      en: 'KP Legal Agent · Game Industry Law — Evidence-based research workflow for cross-jurisdiction game regulation, including loot boxes, P2E, esports, and minor protection.',
+      ko: 'KP Legal Agent · 통합 법률 리서치 — 17개국 이상의 일반 법령부터 게임 산업 규제(확률형 아이템, P2E, e스포츠, 미성년자 보호)까지 한 에이전트로 커버하는 증거 기반 리서치 워크플로. 출처 검증, 신뢰도 점수, 관할권별 비교 분석.',
+      en: 'KP Legal Agent · Unified Legal Research — Evidence-based research workflow covering both general law across 17+ jurisdictions and game-industry regulation (loot boxes, P2E, esports, minor protection) in one agent, with source verification, reliability scoring, and cross-jurisdiction comparison.',
     },
   },
   {
@@ -77,19 +69,11 @@ const repoData = [
     },
   },
   {
-    name: 'PIPA-expert',
+    name: 'data-protection-agent',
     category: 'Legal AI',
     description: {
-      ko: 'KP Legal Agent · 개인정보보호 — 929개 조문, 46개 공식 가이드라인, landmark 판례·해석례 30건, 상호참조 2,369개를 구조화 RAG로 다루는 개인정보보호법 리서치 에이전트.',
-      en: 'KP Legal Agent · Privacy — Korean data privacy research workflow built on 929 statute articles, 46 PIPC guidelines, 30 landmark cases & interpretations, and 2,369 cross-references.',
-    },
-  },
-  {
-    name: 'GDPR-expert',
-    category: 'Legal AI',
-    description: {
-      ko: 'KP Legal Agent · EU 데이터 보호 — 5개 EU 법률, 321개 조문 + 535개 전문(recital), EDPB 문서 120건, CJEU 판례 51건을 구조화 RAG로 다루는 EU 데이터 보호 리서치 에이전트.',
-      en: 'KP Legal Agent · EU Data Protection — EU data protection workflow built on 5 EU laws, 321 articles + 535 recitals, 120 EDPB documents, and 51 CJEU cases via structured RAG.',
+      ko: 'KP Legal Agent · 통합 데이터 보호 — GDPR(EU), PIPA(한국), CCPA/CPRA(미국 캘리포니아) 자료를 한 에이전트에 결합한 글로벌 데이터 보호 리서치 워크플로. EU 5개 법률·321개 조문·535개 recital·EDPB 120건·CJEU 51건, 한국 929개 조문·PIPC 가이드라인 46건·landmark 판례 30건, 캘리포니아 CCPA/CPRA 조문·CPPA 규정·집행사례를 구조화 RAG로 통합 검색.',
+      en: 'KP Legal Agent · Unified Data Protection — Global privacy research workflow combining GDPR (EU), PIPA (Korea), and CCPA/CPRA (California) sources in a single agent. Structured RAG over 5 EU laws · 321 articles · 535 recitals · 120 EDPB documents · 51 CJEU cases, 929 Korean PIPA articles · 46 PIPC guidelines · 30 landmark cases, plus California CCPA/CPRA statutes, CPPA regulations, and enforcement actions.',
     },
   },
   {

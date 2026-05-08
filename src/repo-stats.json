@@ -5,17 +5,11 @@
     "language": "Python",
     "updated_at": "2026-03-26"
   },
-  "general-legal-research": {
-    "stars": 2,
+  "legal-research-agent": {
+    "stars": 0,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-03-26"
-  },
-  "game-legal-research": {
-    "stars": 1,
-    "forks": 0,
-    "language": "Python",
-    "updated_at": "2026-03-26"
+    "updated_at": "2026-05-08"
   },
   "legal-translation-agent": {
     "stars": 0,
@@ -41,17 +35,11 @@
     "language": "Python",
     "updated_at": "2026-04-12"
   },
-  "PIPA-expert": {
+  "data-protection-agent": {
     "stars": 0,
     "forks": 0,
     "language": "Python",
-    "updated_at": "2026-04-10"
-  },
-  "GDPR-expert": {
-    "stars": 0,
-    "forks": 0,
-    "language": "Python",
-    "updated_at": "2026-03-26"
+    "updated_at": "2026-05-08"
   },
   "document-redactor": {
     "stars": 0,
